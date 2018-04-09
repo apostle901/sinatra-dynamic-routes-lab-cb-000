@@ -19,7 +19,8 @@ class App < Sinatra::Base
     @return_phrase
     @num.times do
       @return_phrase << "#{@phrase} "
-    end.@return_phrase
+    end
+    @return_phrase
   end
 
   get "/say/:word1/:word2/:word3/:word4/:word5" do
